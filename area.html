@@ -5,44 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculate Triangle Area </title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navigator container">
-        <div class="nav-brand">Fun with Triangles</div>
-        <ul class="list-non-bullet nav-pills">
-            <li class="list-item-inline">
-                <a class="links link-active" href="/">isTriangle</a>
-            </li>
-
-            <li class="list-item-inline">
-                <a class="links" href="quiz.html">Triangle Quiz</a>
-            </li>
-
-            <li class="list-item-inline">
-                <a class="links" href = "hypotenuse.html">Calculate Hypotenuse</a>
-            </li>
-
-            <li class="list-item-inline">
-                <a class="links" href = "area.html">Calculate Area</a>
-            </li>
-        </ul>
-    </nav>
+    <header>
+        <h1>Fun With Triangles</h1>
+        <nav class="navigator">
+            
+            <ul class="list-non-bullet nav-pills">
+                <li class="list-item-inline">
+                    <a class="links" href="/">isTriangle</a>
+                </li>
+    
+                <li class="list-item-inline">
+                    <a class="links" href="quiz.html">Triangle Quiz</a>
+                </li>
+    
+                <li class="list-item-inline">
+                    <a class="links" href = "hypotenuse.html">Calculate Hypotenuse</a>
+                </li>
+    
+                <li class="list-item-inline">
+                    <a class="links link-active" href = "area.html">Calculate Area</a>
+                </li>
+            </ul>
+        </nav>
+        </header>
+        <div class="container">
 
     <h1>
         Calculate Area of a triangle
     </h1>
 
-    <label>Enter first side of a triangle <input class="side-value" type="number"/></label>
+    <label>Enter 1st side of a triangle <input class="side-value" type="number"/></label>
     
 
-    <label>Enter second side of a triangle <input class="side-value" type="number"/></label>
+    <label>Enter 2nd side of a triangle <input class="side-value" type="number"/></label>
 
     
-    <label>Enter third side of a triangle <input class="side-value" type="number"/></label>
+    <label>Enter 3rd side of a triangle <input class="side-value" type="number"/></label>
     
 
     <button id="calc-area">Calculate Area</button>
     <div id="output"></div>
+    </div>
 
     <script src="area.js"></script>
 </body>
