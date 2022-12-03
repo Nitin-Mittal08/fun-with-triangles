@@ -16,7 +16,6 @@ function checkIfTriangle(){
     }else{
         output.innerText = "Oh no, It isn't a Triangle.🤷‍♀️"
     }
-    //console.log("Clicked");
 }
 
 
