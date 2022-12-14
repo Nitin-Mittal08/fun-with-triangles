@@ -9,10 +9,14 @@ function sumOfSquares(a, b){
 }
 
 function calculateHypotenuse(){
+    if(Number(baseValue.value)>0 && Number(heightValue.value)>0){
     const sumSquares = sumOfSquares(Number(baseValue.value), Number(heightValue.value));
-    const hypotenuse = Math.sqrt(sumSquares);
+    const hypotenuse = Math.sqrt(sumSquares).toFixed(2);
 
     outputEl.innerText = "The value of Hypotenuse is: " + hypotenuse;
+    }else{
+        outputEl.innerText = "Enter positive values of sides of triangle";
+    }
 }
 
 
