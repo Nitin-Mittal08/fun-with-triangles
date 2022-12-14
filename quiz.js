@@ -10,7 +10,7 @@ function checkAnswers(){
     const formResponse = new FormData(quizForm);
     for(let value of formResponse.values()){
         if(value==rightAnswers[index]){
-            score = score +1;
+            score = score + 1;
         }
         index+=1;
     }
